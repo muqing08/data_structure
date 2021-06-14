@@ -29,5 +29,17 @@ float question4(float a, float b, float c) {
     } else {
         return a / (b - c);
     }
+}
 
+float question5(float ForC, int tag) {
+    if (tag == 0) {
+        printf("输入华氏温度计算摄氏温度！\n");
+        return ((ForC - 32) * 5) / 9;
+    } else if (tag == 1) {
+        printf("输入摄氏温度计算华氏温度！\n");
+        return ((ForC * 9) / 5) + 32;
+    } else {
+        printf("输入非法，请正确输入！\n");
+        return -1;
+    }
 }
