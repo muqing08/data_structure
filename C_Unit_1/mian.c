@@ -11,6 +11,6 @@ int main() {
 //    question2();
 //    question3(number);
     number = question4(a, b, c);
-    printf("结果为：%0.1f\n",number);
+    printf("结果为：%f\n",number);
     return 0;
 }

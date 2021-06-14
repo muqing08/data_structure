@@ -23,5 +23,11 @@ int question3(int number) {
 }
 
 float question4(float a, float b, float c) {
-    return a / (b - c);
+    if (b == c) {
+        printf("分母的值不能为0!\n");
+        return -1;
+    } else {
+        return a / (b - c);
+    }
+
 }
