@@ -8,4 +8,4 @@ include_directories(C_Unit_1)
 
 add_executable(data_structure
         C_Unit_1/mian.c
-        C_Unit_1/question1.h)
+        C_Unit_1/question.h)

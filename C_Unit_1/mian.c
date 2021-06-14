@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "question1.h"
+#include "question.h"
 
 int main() {
     int a, b, c;
