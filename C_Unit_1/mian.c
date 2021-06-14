@@ -2,13 +2,15 @@
 #include "question.h"
 
 int main() {
-//    int a, b, c;
-    int number;
+    float a, b, c;
+    float number;
     printf("hello world\n");
-//    scanf("%d %d %d", &a, &b, &c);
-    scanf("%d", &number);
+    scanf("%f %f %f", &a, &b, &c);
+//    scanf("%d", &number);
 //    question1(a, b, c);
 //    question2();
-    question3(number);
+//    question3(number);
+    number = question4(a, b, c);
+    printf("结果为：%0.1f\n",number);
     return 0;
 }

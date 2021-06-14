@@ -21,3 +21,7 @@ int question3(int number) {
 
     return 1;
 }
+
+float question4(float a, float b, float c) {
+    return a / (b - c);
+}
