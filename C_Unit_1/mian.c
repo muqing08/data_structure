@@ -17,10 +17,11 @@ int main() {
 //    number = question4(a, b, c);
 //    printf("结果为：%f\n",number);
 //    printf("温度为：%f\n", question5(number1, number2));
-    int ret, i;
-    while (fflush(stdin), (ret = scanf("%d", &i)) != EOF) {
-        printf("i=%d\n", i);
+    int ret;
+    float number;
+    while ((scanf("%f", &number)) != EOF) {
+        printf("圆的面积为：%f\n", question6(number));
+        system("date");
     }
-    system("pause");
     return 0;
 }
