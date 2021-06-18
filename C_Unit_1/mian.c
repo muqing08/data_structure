@@ -17,7 +17,6 @@ int main() {
 //    number = question4(a, b, c);
 //    printf("结果为：%f\n",number);
 //    printf("温度为：%f\n", question5(number1, number2));
-    int ret;
     float number;
     while ((scanf("%f", &number)) != EOF) {
         printf("圆的面积为：%f\n", question6(number));
